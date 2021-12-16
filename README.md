@@ -4,3 +4,12 @@ A face mask detection robot that goes around the room and detects a face. Whenev
 Built using Raspberry Pi 3 and Omni wheels with H bridge.
 
 There were used OpenCV library to detect a face and GPIO library to be able to control the motors
+
+# Features
+Walks around a room 
+
+Finds a person
+
+Detecs a face
+
+Plays a sound
