@@ -11,13 +11,17 @@ Walks around a room
 Finds a person
 
 Detecs a face
+```
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 #mouth_cascade = cv2.CascadeClassifier('haarcascade_mcs_mouth.xml')
 nose_cascade = cv2.CascadeClassifier('haarcascade_mcs_nose.xml')
 
+```
 Plays a sound
-
+```
+playsound('/home/mysisteristhebest/Documents/Cri/M1/robotics-session1/project/grenad01.wav')
+```
 
 # Requirements
 Python 3.9
