@@ -50,5 +50,6 @@ GPIO
 4. Open a terminal on your computer and install OpenCV library
 5. Import GPIO library to be able to control the motors
 
-
+# Schematics
+![alt text](http://url/to/img.png)
 
