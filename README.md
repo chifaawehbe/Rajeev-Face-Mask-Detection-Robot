@@ -12,9 +12,7 @@ Finds a person
 
 Detecs a face
 ```
-# Create the haar cascade
 faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-#mouth_cascade = cv2.CascadeClassifier('haarcascade_mcs_mouth.xml')
 nose_cascade = cv2.CascadeClassifier('haarcascade_mcs_nose.xml')
 
 ```
