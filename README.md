@@ -70,7 +70,7 @@ Linux, MacOS or Windows
 # Required Components
 For code:
 
-Raspberry Pi 4]
+Raspberry Pi 3
 
 16 GB microSD card with an install Raspberry Pi OS
 
