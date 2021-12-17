@@ -7,8 +7,49 @@ There were used OpenCV library to detect a face and GPIO library to be able to c
 
 # Features
 Walks around a room 
+```
+def init():
+    gpio.setmode(gpio.BCM)
 
-Finds a person
+    gpio.setup(17, gpio.OUT)
+    gpio.setup(23, gpio.OUT)
+    gpio.setup(22, gpio.OUT)
+    gpio.setup(24, gpio.OUT)
+
+def forward (sec):
+    gpio.output(17, True)
+    gpio.output(23, False)
+    gpio.output(22, True)
+    gpio.output(24, False)
+    time.sleep(sec)
+
+def backward (sec):
+    gpio.output(17, False)
+    gpio.output(23, True)
+    gpio.output(22, False)
+    gpio.output(24, True)
+    time.sleep(sec)
+    
+init()
+forward(8)
+print("forward")
+#backward(4)
+print("backward")
+gpio.cleanup()
+```
+Finds a person using Ultrasonic Sensor and distance measurement
+```
+try:
+    init()
+    while True:
+        distance = measure_distance()
+        if distance > 2 and distance < 200:      
+            print ("Distance:",distance - 0.5,"cm") 
+            turn(1)
+        else:
+            print ('Out of range')
+            forward(3)  
+```
 
 Detecs a face
 ```
@@ -18,14 +59,14 @@ nose_cascade = cv2.CascadeClassifier('haarcascade_mcs_nose.xml')
 ```
 Plays a sound
 ```
-playsound('/home/mysisteristhebest/Documents/Cri/M1/robotics-session1/project/grenad01.wav')
+playsound('/home/mysisteristhebest/Documents/Cri/M1/robotics-session1/project/Rajeev123.wav')
 ```
 
 # Requirements
 Python 3.9
 Linux, MacOS or Windows 
 
-# Materials and Supplies
+# Required Components
 For code:
 Raspberry Pi 4
 16 GB microSD card with an install Raspberry Pi OS
@@ -38,6 +79,7 @@ DC Motors
 F/M and M/M jumpers
 Power Supply
 H bridge
+Ultrasonic Sensor
 
 Libraries:
 OpenCV
@@ -52,4 +94,23 @@ GPIO
 
 # Schematics
 ![alt text](http://url/to/img.png)
+
+# Detecting a face
+
+# Challenges
+1. Tensor Flow library could be installed only up to Python  3.7
+2. Technical problems of the SD card of the Raspberry Pi
+3. Measuring the distance
+4. Building a hardware - positioning all the elements of the robot
+
+# References
+https://www.youtube.com/watch?v=QdHUouLJBtg
+https://smprobotics.com/usa/face-mask-detection-robot/
+https://github.com/chandrikadeb7/Face-Mask-Detection
+https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-1212813
+https://create.arduino.cc/projecthub/karem_benchikha/facemask-detection-88fa1a
+https://www.youtube.com/watch?v=GKE7ngh1lLs
+https://www.tomshardware.com/how-to/raspberry-pi-face-mask-detector
+https://circuitdigest.com/microcontroller-projects/face-mask-detection-using-raspberry-pi-and-opencv
+
 
