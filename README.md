@@ -105,9 +105,15 @@ GPIO
 
 # References
 https://smprobotics.com/usa/face-mask-detection-robot/  -  Face Mask Detection Robot article
+
 https://www.youtube.com/watch?v=GKE7ngh1lLs - Raspberry Pi based Face Mask Detection using OpenCV
+
 https://www.tomshardware.com/how-to/raspberry-pi-face-mask-detector  -  How to Build a Face Mask Detector with Raspberry Pi
+
 https://circuitdigest.com/microcontroller-projects/face-mask-detection-using-raspberry-pi-and-opencv  -  Face Mask Detection using Raspberry Pi and OpenCV
+
 https://www.raspberrypi.com/software/  -  Raspberry Pi OS Raspbian
+
 https://raspberrypi.stackexchange.com/questions/7088/playing-audio-files-with-python  -  Playing audio files with Python on Raspberry Pi
+
 https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/  -  Using a Raspberry Pi distance sensor (ultrasonic sensor HC-SR04)
