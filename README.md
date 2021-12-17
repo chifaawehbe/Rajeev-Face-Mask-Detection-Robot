@@ -64,25 +64,38 @@ playsound('/home/mysisteristhebest/Documents/Cri/M1/robotics-session1/project/Ra
 
 # Requirements
 Python 3.9
+
 Linux, MacOS or Windows 
 
 # Required Components
 For code:
-Raspberry Pi 4
+
+Raspberry Pi 4]
+
 16 GB microSD card with an install Raspberry Pi OS
+
 Power supply/Keyboard/Mouse/Monitor/HDMI Cable (for your Raspberry Pi)
+
 USB Webcam or Raspberry Pi Camera
 
 For robot:
+
 Omni wheels
+
 DC Motors
+
 F/M and M/M jumpers
+
 Power Supply
+
 H bridge
+
 Ultrasonic Sensor
 
 Libraries:
+
 OpenCV
+
 GPIO
 
 # Installation
