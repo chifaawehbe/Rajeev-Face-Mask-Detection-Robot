@@ -96,7 +96,8 @@ GPIO
 ![alt text](https://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/78950ed85cd2c202927d8ad143a243c9ef97b476/Schematics%20Face%20Mask%20robot.png)
 
 # Detecting a face
-
+![alt text](https://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/3bc4b4086237966f9c8d3426e66434f764f094af/Face2.jpeg)
+![alt text](https://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/3bc4b4086237966f9c8d3426e66434f764f094af/Face1.jpeg)
 # Challenges
 1. Tensor Flow library could be installed only up to Python  3.7
 2. Technical problems of the SD card of the Raspberry Pi
