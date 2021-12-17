@@ -93,7 +93,7 @@ GPIO
 5. Import GPIO library to be able to control the motors
 
 # Schematics
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/78950ed85cd2c202927d8ad143a243c9ef97b476/Schematics%20Face%20Mask%20robot.png)
 
 # Detecting a face
 
@@ -104,13 +104,10 @@ GPIO
 4. Building a hardware - positioning all the elements of the robot
 
 # References
-https://www.youtube.com/watch?v=QdHUouLJBtg
-https://smprobotics.com/usa/face-mask-detection-robot/
-https://github.com/chandrikadeb7/Face-Mask-Detection
-https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-1212813
-https://create.arduino.cc/projecthub/karem_benchikha/facemask-detection-88fa1a
-https://www.youtube.com/watch?v=GKE7ngh1lLs
-https://www.tomshardware.com/how-to/raspberry-pi-face-mask-detector
-https://circuitdigest.com/microcontroller-projects/face-mask-detection-using-raspberry-pi-and-opencv
-
-
+https://smprobotics.com/usa/face-mask-detection-robot/  -  Face Mask Detection Robot article
+https://www.youtube.com/watch?v=GKE7ngh1lLs - Raspberry Pi based Face Mask Detection using OpenCV
+https://www.tomshardware.com/how-to/raspberry-pi-face-mask-detector  -  How to Build a Face Mask Detector with Raspberry Pi
+https://circuitdigest.com/microcontroller-projects/face-mask-detection-using-raspberry-pi-and-opencv  -  Face Mask Detection using Raspberry Pi and OpenCV
+https://www.raspberrypi.com/software/  -  Raspberry Pi OS Raspbian
+https://raspberrypi.stackexchange.com/questions/7088/playing-audio-files-with-python  -  Playing audio files with Python on Raspberry Pi
+https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/  -  Using a Raspberry Pi distance sensor (ultrasonic sensor HC-SR04)
