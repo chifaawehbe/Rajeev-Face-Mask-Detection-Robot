@@ -120,6 +120,9 @@ GPIO
 3. Measuring the distance
 4. Building a hardware - positioning all the elements of the robot
 
+# Video
+https://drive.google.com/file/d/1hTsFCxNsj9zq5h5NpsMKfuJemGkNii3I/view?usp=sharing
+
 # References
 https://smprobotics.com/usa/face-mask-detection-robot/  -  Face Mask Detection Robot article
 
