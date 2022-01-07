@@ -4,7 +4,7 @@ A face mask detection robot is a social robot that goes around the room and dete
 Built using Raspberry Pi 3 and Omni wheels with H bridge.
 
 There were used OpenCV library to detect a face and GPIO library to be able to control the motors
-![alt text](rhttps://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/96915773e3999fd7b7e23d48fe1fb4941d5d4869/robotics.jpeg)
+![alt text](https://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/3bc4b4086237966f9c8d3426e66434f764f094af/robotics.jpeg)
 
 # Features
 Walks around a room 
