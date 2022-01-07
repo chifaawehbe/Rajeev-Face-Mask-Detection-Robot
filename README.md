@@ -5,7 +5,7 @@ Built using Raspberry Pi 3 and Omni wheels with H bridge.
 
 There were used OpenCV library to detect a face and GPIO library to be able to control the motors
 
-
+# Picture
 ![alt text](https://github.com/chifaawehbe/Rajeev-Face-Mask-Detection-Robot/blob/3bc4b4086237966f9c8d3426e66434f764f094af/robotics.jpeg)
 
 # Features
