@@ -122,6 +122,7 @@ GPIO
 
 # Video
 https://drive.google.com/file/d/1hTsFCxNsj9zq5h5NpsMKfuJemGkNii3I/view?usp=sharing
+https://drive.google.com/file/d/1lrA-5cG7KANAKvZE9M1UbBMK1MkB4P6j/view?usp=sharing
 
 # References
 https://smprobotics.com/usa/face-mask-detection-robot/  -  Face Mask Detection Robot article
